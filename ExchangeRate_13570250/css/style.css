@@ -1,0 +1,255 @@
+body{
+	background: #7200da;  
+	font-family: 'Maven Pro', sans-serif; 
+} 
+form{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 80px;
+	box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.87), 0 3px 20px 1px rgba(0, 0, 0, 0.35);
+	padding: 2em;
+	background-color: #fff;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+table{
+	width: 80%;
+  	color: #fff;
+  	margin: 0 auto;
+}
+h2{	
+	text-shadow: 1px 1px 3px rgb(51, 51, 51);
+	text-align: center;
+	color: #7200da;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: lighting-color: #7200da;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+h3{
+	font-size: 20px;
+	font-family: 'Maven Pro', sans-serif; 
+	letter-spacing: 2px;
+	color: #000;
+	/*width: 100px;*/
+}
+td{
+	/*width: 0.5%;*/
+}
+.textName{
+	text-align: left;
+	float: left;
+}
+.Op_M{
+	 position: relative;
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid #7200da;
+    padding: 12px 15px;
+    font-family: 'Maven Pro', sans-serif; 
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px #7200da;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    letter-spacing: 2px;
+}
+.Op_M:after { 
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #4cbeff transparent;
+}
+.Op_M .Op_list {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    /* Styles */
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+}
+
+#Amount{
+	border: none;
+    border-bottom: 2px solid #7200da;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 18px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 30px 5px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+    float: left;
+    text-align: left;
+    font-family: 'Maven Pro', sans-serif; 
+    letter-spacing: 2px;
+}
+#Amount:focus {
+    width: 100%;
+}
+.container{
+	width: 25%
+	margin: 0 auto;
+}
+input .B-button {
+
+  font-size: 1 em;
+  color: #7200da;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.B-button{
+	line-height: 50px;
+	height: 60px;
+	text-align: center;
+	margin-left: 100%;
+	width: 120%;
+	cursor: pointer;
+	margin-top: 25px;
+	font-size: 18px;
+}
+@-webkit-keyframes jello {
+  from, 11.1%, to {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+@keyframes jello {
+  from, 11.1%, to {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+.Buttonn{
+	color: #7200da;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	position: relative;
+	border: 3px solid #7200da;
+	color: #7200da;
+	border-radius: 25px;
+}
+
+.Buttonn:hover{
+	-webkit-animation-name: jello;
+	animation-name: jello;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	background-color: rgba(255,255,255,0.2);
+	
+}
+.Contai{
+  margin-top: 10%;
+}
+
+
+

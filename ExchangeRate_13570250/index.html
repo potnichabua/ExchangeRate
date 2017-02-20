@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exchage Rate | Money</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+</head>
+<body>
+
+<form action="Money.php" method="post">
+
+    <table>
+        
+        <tr><h2>Exchange Rate <br>- Money -</h2></tr>
+        <div class="container">
+        <tr>
+            <td><div class="textName"><h3>Amount:</h3></div></td>
+            <td><input type="text" name="exchRate" id="Amount" placeholder=" Input Amount [THB] " ></td>
+        </tr>
+        <tr>
+            <td><div class="textName"><h3>Exchange :</h3></div></td>
+
+            <td>
+            <select name="currency" id="Op_Money" class="Op_M" tabindex="1">
+                <option value="1" class="Op_list"><p>US Dollar |USD</p></option>
+                <option value="2" class="Op_list">Euro |EUR</option>
+                <option value="3" class="Op_list">Japanese Yen |JPY</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input class="B-button Buttonn" type="submit" name="" value="CONVERT" id="submit"></td>
+        </tr>
+       
+        </div><!-- container -->
+    </table>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript">
+        </script>
+</body>
+</html>
